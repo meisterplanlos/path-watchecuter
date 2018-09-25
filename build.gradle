@@ -11,6 +11,7 @@ plugins {
     id 'java-library'
 }
 
+description = "Watch a configurable path for incoming files and execute actions on those files."
 version = '0.0.1'
 
 dependencies {
