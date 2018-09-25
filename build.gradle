@@ -38,3 +38,7 @@ jar {
                'Implementation-Version': project.version)
   }
 }
+
+javadoc {
+  options.addBooleanOption('html5', true)
+}
